@@ -27,8 +27,8 @@
         <figure class="logo">
             <img src="images/logo.png" alt="logo" srcset="images/logo1.png 1x, images/logo2.png 2x, images/logo3.png 3x">
         </figure>
-        <h1>Company Name Here</h1>
-        <h2>Possible Slogan or Tagline</h2>
+        <h1>Great American SteakHouse</h1>
+        <h2>America's Kitchen</h2>
     </header>
     
     
@@ -42,23 +42,27 @@
         </ul>
     </nav>
 
-    <figure class="clearfix">
-        <img src="images/restaurantHero.jpg" class="heroImg" 
-        alt="nice people at a restauraunt">
-    </figure>
-    
+<!-- HERO IMAGE -->
+<div class="clearfix">
+    <picture class="photoB">
+        <source media="(max-width: 450px)" srcset="images/restaurantHero-assets/friends450.jpg">
+        <source media="(max-width: 600px)" srcset="images/restaurantHero-assets/friends600.jpg">
+        <source media="(max-width: 750px)" srcset="images/restaurantHero-assets/friends750.jpg">
+        <source media="(max-width: 900px)" srcset="images/restaurantHero-assets/friends900.jpg">
+        <img src="images/restaurantHero-assets/friends1050.jpg" alt="nice people at a restauraunt">
+    </picture>
+</div>
     
 <!-- CONTENT HERE -->
     <main class="clearfix">
         <h1>Products</h1>
-        <figure class="mainImg">
-            <img src="images/restauraunt-assets/restauraunt.jpg" alt="fancy restauraunt" 
-            sizes="50vw" srcset="images/restauraunt-assets/rest1.jpg 200w, 
-            images/restauraunt-assets/rest2.jpg 500w, 
-            images/restauraunt-assets/rest3.jpg 800w, 
-            images/restauraunt-assets/rest4.jpg 1100w">
-            <figcaption>A Fancy Restauraunt</figcaption>
-        </figure>
+        <picture class="photoA">
+            <source media="(max-width: 200px)" srcset="images/restauraunt-assets/rest1.jpg">
+            <source media="(max-width: 500px)" srcset="images/restauraunt-assets/rest2.jpg">
+            <source media="(max-width: 800px)" srcset="images/restauraunt-assets/rest3.jpg">
+            <img src="images/restauraunt-assets/rest4.jpg" alt="The Loft area of the restauraunt">
+            <div>The Back Loft</div>
+        </picture>
         <p>The page name should almost exactly match the menu item. 
             Credibly disintermediate bricks-and-clicks schemas and cutting-edge supply chains. Completely reintermediate orthogonal web services whereas out-of-the-box platforms. Interactively impact equity invested processes vis-a-vis team driven imperatives. Conveniently envisioneer out-of-the-box web services vis-a-vis client-focused methods of empowerment. Phosfluorescently provide access to end-to-end paradigms with global platforms.
 
@@ -94,7 +98,7 @@ Dynamically disseminate focused scenarios with progressive ideas. Competently be
     
 <!-- FOOTER HERE -->   
     <footer>
-        &copy; 201x &bull; Paul Cheney &bull; 123-555-6789
+        &copy; 201x &bull; Wyatt Allan &bull; 123-555-6789
     </footer>
 
 </body>
