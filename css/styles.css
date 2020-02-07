@@ -395,7 +395,7 @@ picture.photoA {
 main picture.photoA img {
   width: 100%; }
 
-main picture.photoA div {
+main picture.photoA section {
   text-align: center;
   font-weight: 400; }
 
