@@ -401,9 +401,10 @@ main picture.photoA div {
 
 /*----------- FOOTER --------------*/
 footer {
-  background-color: #ddd;
+  background-color: #703b25;
   padding: .5rem 2%;
-  text-align: center; }
+  text-align: center;
+  color: white; }
 
 /*----- Clearfix: Force an Element not to collapse -----*/
 .clearfix:after {

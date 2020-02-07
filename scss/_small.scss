@@ -127,9 +127,10 @@ main picture.photoA div {
 
 /*----------- FOOTER --------------*/
 footer {
-    background-color: #ddd;
+    background-color: $primaryColor;
     padding: .5rem 2%;
     text-align: center;
+    color: white;
 }
 
 
